@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".rekening">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Rekeningku"
+            android:textSize="24dp"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="15dp"/>
+
+    </LinearLayout>
+    <RelativeLayout
+        android:id="@+id/tabungangiro"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/t6">
+
+        <ImageButton
+            android:id="@+id/rekening"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/credit_card_24" />
+    </RelativeLayout>
+    <RelativeLayout
+
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="125dp"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/t6">
+
+        <ImageButton
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/monitor_weight_24" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/t6">
+
+        <ImageButton
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/local_florist_24" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/t6">
+
+        <ImageButton
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/branding_watermark_24" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/laporan"
+        android:layout_below="@id/line1"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="260dp"
+        android:layout_marginTop="19dp"
+        android:background="@drawable/t6">
+
+        <ImageButton
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/article_24" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/rekeningku"
+        android:layout_below="@id/line1"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="180dp"
+        android:layout_marginTop="19dp"
+        android:background="@drawable/t6">
+
+        <ImageButton
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/baseline_query_stats_24" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/pembukaan"
+        android:layout_below="@id/line1"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="19dp"
+        android:background="@drawable/t6">
+
+        <ImageButton
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/add_card_24" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/pencairan"
+        android:layout_below="@id/line1"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="19dp"
+        android:background="@drawable/t6">
+
+        <ImageButton
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/local_atm_24" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/line1"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/tabungangiro">
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:text="Tabungan_Giro"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="13dp" />
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:text="Deposito_Tapenas"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="13dp"
+            android:layout_marginLeft="110dp"/>
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:text="DPLK/BNI Simpone"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="13dp"
+            android:layout_marginLeft="200dp"/>
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="285dp"
+            android:text="Pinjaman"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="13dp" />
+    </RelativeLayout>
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="20dp"
+       android:layout_marginTop="20dp"
+       android:layout_below="@+id/pencairan">
+    <TextView
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:text="Pencairan Deposito"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="13dp"
+        android:layout_marginLeft="5dp"/>
+    <TextView
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:text="Pembukaan Rekening"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="13dp"
+
+        android:layout_marginLeft="85dp"/>
+    <TextView
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:text="Rekening Investasi"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="13dp"
+        android:layout_marginLeft="165dp"/>
+    <TextView
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:text="Laporan Konsolidasi"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="13dp"
+        android:layout_marginLeft="245dp"/>
+</RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".pembelian"
+    android:background="@color/white">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/judul"
+        android:text="Pembelian"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:fontFamily="sans-serif"
+        android:textColor="@color/black"
+        android:layout_marginTop="20dp"/>
+
+    <ImageView
+        android:id="@+id/satu"
+        android:layout_width="45dp"
+        android:layout_height="60dp"
+        android:src="@drawable/data"
+        android:layout_below="@+id/judul"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/satu"
+        android:text="Paket Data"
+        android:textColor="@color/black"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="10dp"/>
+
+    <ImageView
+        android:id="@+id/dua"
+        android:layout_width="45dp"
+        android:layout_height="60dp"
+        android:src="@drawable/voucher"
+        android:layout_below="@+id/judul"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/hp"
+        android:layout_width="61dp"
+        android:layout_height="37dp"
+        android:layout_below="@+id/dua"
+        android:layout_marginLeft="120dp"
+        android:textColor="@color/black"
+        android:text="Voucher Prabayar Telepon"
+        android:layout_marginTop="10dp"/>
+
+    <ImageView
+        android:id="@+id/tiga"
+        android:layout_width="45dp"
+        android:layout_height="60dp"
+        android:src="@drawable/token"
+        android:layout_below="@+id/judul"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/token"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tiga"
+        android:layout_marginLeft="200dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="10dp"
+        android:text="Token Listrik" />
+
+    <ImageView
+        android:id="@+id/empat"
+        android:layout_width="45dp"
+        android:layout_height="60dp"
+        android:src="@drawable/agen"
+        android:layout_below="@+id/judul"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/TV"
+        android:layout_width="81dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/dua"
+        android:layout_marginLeft="290dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/black"
+        android:textSize="12dp"
+        android:textAlignment="center"
+        android:text="Voucher Berlanggan" />
+
+    <ImageView
+        android:id="@+id/lima"
+        android:layout_width="45dp"
+        android:layout_height="60dp"
+        android:src="@drawable/agen"
+        android:layout_below="@id/data"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"/>
+
+    <TextView
+        android:id="@+id/agen"
+        android:layout_width="90dp"
+        android:layout_height="47dp"
+        android:layout_below="@+id/delapan"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:text="Top Up Agen Penerbangan"
+        android:textColor="@color/black"
+        android:textAlignment="center" />
+
+    <ImageView
+        android:id="@+id/enam"
+        android:layout_width="45dp"
+        android:layout_height="60dp"
+        android:src="@drawable/digital"
+        android:layout_below="@id/data"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="120dp"/>
+    <TextView
+        android:id="@+id/virtual"
+        android:layout_width="82dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/delapan"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="10dp"
+        android:text="Digital Voucher"
+        android:textColor="@color/black"
+        android:textAlignment="center"/>
+
+    <ImageView
+        android:id="@+id/tujuh"
+        android:layout_width="45dp"
+        android:layout_height="60dp"
+        android:src="@drawable/bni"
+        android:layout_below="@id/data"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="210dp"/>
+
+    <TextView
+        android:id="@+id/bni"
+        android:layout_width="82dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/delapan"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/black"
+        android:text="Asuransi BRI Life"
+        android:textAlignment="center"/>
+
+    <ImageView
+        android:id="@+id/delapan"
+        android:layout_width="45dp"
+        android:layout_height="60dp"
+        android:src="@drawable/api"
+        android:layout_below="@id/data"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="300dp"
+        />
+    <TextView
+        android:id="@+id/api"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/delapan"
+        android:layout_marginLeft="310dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="10dp"
+        android:text="PGN" />
+    <ImageView
+        android:id="@+id/sembilan"
+        android:layout_width="45dp"
+        android:layout_height="60dp"
+        android:src="@drawable/event"
+        android:layout_below="@id/agen"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"/>
+
+    <TextView
+        android:id="@+id/event"
+        android:layout_width="90dp"
+        android:layout_height="47dp"
+        android:layout_below="@+id/sembilan"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:text="Event"
+        android:textColor="@color/black"
+        android:textAlignment="center" />
+
+
+</RelativeLayout>

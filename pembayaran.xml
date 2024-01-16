@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".pembayaran">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/judul"
+        android:text="Pembayaran"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:fontFamily="sans-serif"
+        android:textColor="@color/black"
+        android:layout_marginTop="20dp"/>
+
+    <ImageView
+        android:id="@+id/satu"
+        android:layout_width="45dp"
+        android:layout_height="60dp"
+        android:src="@drawable/satu"
+        android:layout_below="@+id/judul"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/data"
+        android:layout_width="wrap_content"
+        android:layout_height="24dp"
+        android:layout_below="@+id/satu"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="10dp"
+        android:text="Kartu Kredit BNI"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="12dp" />
+
+    <ImageView
+        android:id="@+id/dua"
+        android:layout_width="45dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/judul"
+        android:layout_marginLeft="125dp"
+        android:layout_marginTop="7dp"
+        android:src="@drawable/dua" />
+
+    <TextView
+        android:id="@+id/hp"
+        android:layout_width="87dp"
+        android:layout_height="42dp"
+        android:layout_below="@+id/dua"
+        android:layout_marginLeft="115dp"
+        android:layout_marginTop="10dp"
+        android:text="Kartu Kredit Bank lain"
+        android:textAlignment="center"
+        android:textColor="@color/black"/>
+    <ImageView
+        android:id="@+id/tiga"
+        android:layout_width="45dp"
+        android:layout_height="60dp"
+        android:src="@drawable/tiga"
+        android:layout_below="@+id/judul"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/token"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tiga"
+        android:layout_marginLeft="210dp"
+        android:layout_marginTop="10dp"
+        android:text="Pasca Bayar Telepon"
+        android:textAlignment="center"
+        android:textColor="@color/black"/>
+
+    <ImageView
+        android:id="@+id/empat"
+        android:layout_width="45dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/judul"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/empat" />
+
+    <TextView
+        android:id="@+id/TV"
+        android:layout_width="wrap_content"
+        android:layout_height="29dp"
+        android:layout_below="@+id/dua"
+        android:layout_marginLeft="310dp"
+        android:layout_marginTop="10dp"
+        android:text="Listrik"
+        android:textColor="@color/black" />
+
+    <ImageView
+        android:id="@+id/lima"
+        android:layout_width="45dp"
+        android:layout_height="60dp"
+        android:src="@drawable/lima"
+        android:layout_below="@id/data"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"/>
+
+    <TextView
+        android:id="@+id/agen"
+        android:layout_width="92dp"
+        android:layout_height="37dp"
+        android:layout_below="@+id/delapan"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:text="Penerimaan Negara"
+        android:textAlignment="center"
+        android:textColor="@color/black"/>
+
+    <ImageView
+        android:id="@+id/enam"
+        android:layout_width="45dp"
+        android:layout_height="60dp"
+        android:src="@drawable/enam"
+        android:layout_below="@id/data"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="125dp"/>
+    <TextView
+        android:id="@+id/virtual"
+        android:layout_width="82dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/delapan"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="10dp"
+        android:text="Multifinance"
+        android:textAlignment="center"
+        android:textColor="@color/black"/>
+
+    <ImageView
+        android:id="@+id/tujuh"
+        android:layout_width="45dp"
+        android:layout_height="60dp"
+        android:src="@drawable/tujuh"
+        android:layout_below="@id/data"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="220dp"/>
+
+    <TextView
+        android:id="@+id/bni"
+        android:layout_width="76dp"
+        android:layout_height="52dp"
+        android:layout_below="@+id/delapan"
+        android:layout_marginLeft="210dp"
+        android:layout_marginTop="12dp"
+        android:text="TV Berlanggan."
+        android:textAlignment="center"
+        android:textColor="@color/black"/>
+
+    <ImageView
+        android:id="@+id/delapan"
+        android:layout_width="45dp"
+        android:layout_height="60dp"
+        android:src="@drawable/delapan"
+        android:layout_below="@id/data"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="300dp"/>
+
+    <TextView
+        android:id="@+id/api"
+        android:layout_width="58dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/delapan"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="10dp"
+        android:text="Zis dan Qurban"
+        android:textAlignment="center"
+        android:textColor="@color/black" />
+
+    <ImageView
+        android:id="@+id/sembilan"
+        android:layout_width="45dp"
+        android:layout_height="60dp"
+        android:src="@drawable/sembilan"
+        android:layout_below="@id/agen"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"/>
+
+    <TextView
+        android:id="@+id/event"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sembilan"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:text="PDAM dan IPL"
+        android:textAlignment="center"
+        android:textColor="@color/black"/>
+
+    <ImageView
+        android:id="@+id/sepuluh"
+        android:layout_width="45dp"
+        android:layout_height="60dp"
+        android:src="@drawable/sepuluh"
+        android:layout_below="@id/agen"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="125dp"/>
+
+    <TextView
+        android:id="@+id/asuransi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sembilan"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="10dp"
+        android:text="Asuransi"
+        android:textAlignment="center"
+        android:textColor="@color/black"/>
+
+    <ImageView
+        android:id="@+id/sebelas"
+        android:layout_width="45dp"
+        android:layout_height="60dp"
+        android:src="@drawable/sebelas"
+        android:layout_below="@id/agen"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="220dp"/>
+
+    <TextView
+        android:id="@+id/kereta"
+        android:layout_width="88dp"
+        android:layout_height="37dp"
+        android:layout_below="@+id/sembilan"
+        android:layout_marginLeft="190dp"
+        android:layout_marginTop="10dp"
+        android:text="Tiket Kereta Api"
+        android:textAlignment="center"
+        android:textColor="@color/black" />
+
+    <ImageView
+        android:id="@+id/duabelas"
+        android:layout_width="45dp"
+        android:layout_height="60dp"
+        android:src="@drawable/duabelas"
+        android:layout_below="@id/agen"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="300dp"/>
+
+    <TextView
+        android:id="@+id/pesawat"
+        android:layout_width="86dp"
+        android:layout_height="59dp"
+        android:layout_below="@+id/sembilan"
+        android:layout_marginLeft="280dp"
+        android:layout_marginTop="6dp"
+        android:text="Tiket Penerbangan"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="12dp" />
+
+    <ImageView
+        android:id="@+id/tigabelas"
+        android:layout_width="45dp"
+        android:layout_height="60dp"
+        android:src="@drawable/tigabelas"
+        android:layout_below="@id/pesawat"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"/>
+
+    <TextView
+        android:id="@+id/internet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tigabelas"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="10dp"
+        android:text="Internet"
+        android:textAlignment="center"
+        android:textColor="@color/black"/>
+
+    <ImageView
+        android:id="@+id/empatbelas"
+        android:layout_width="45dp"
+        android:layout_height="60dp"
+        android:src="@drawable/empatbelas"
+        android:layout_below="@id/pesawat"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="125dp"/>
+
+    <TextView
+        android:id="@+id/asur"
+        android:layout_width="66dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tigabelas"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="10dp"
+        android:text="Pinjaman Nasional"
+        android:textAlignment="center"
+        android:textColor="@color/black"/>
+
+    <ImageView
+        android:id="@+id/limabelas"
+        android:layout_width="45dp"
+        android:layout_height="60dp"
+        android:src="@drawable/limabelas"
+        android:layout_below="@id/pesawat"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="210dp"/>
+
+    <TextView
+        android:id="@+id/gadai"
+        android:layout_width="78dp"
+        android:layout_height="35dp"
+        android:layout_below="@+id/tigabelas"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="10dp"
+        android:text="Pegadaian"
+        android:textAlignment="center"
+        android:textColor="@color/black"/>
+
+    <ImageView
+        android:id="@+id/enambelas"
+        android:layout_width="45dp"
+        android:layout_height="60dp"
+        android:src="@drawable/enambelas"
+        android:layout_below="@id/pesawat"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="300dp"/>
+
+    <TextView
+        android:id="@+id/pendidkan"
+        android:layout_width="77dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tigabelas"
+        android:layout_marginLeft="280dp"
+        android:layout_marginTop="10dp"
+        android:text="Biaya Pendidikan"
+        android:textAlignment="center"
+        android:textColor="@color/black" />
+
+    <ImageView
+        android:id="@+id/tujuhbelas"
+        android:layout_width="45dp"
+        android:layout_height="60dp"
+        android:src="@drawable/tujuhbelas"
+        android:layout_below="@id/pendidkan"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"/>
+
+    <TextView
+        android:id="@+id/pajak"
+        android:layout_width="66dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tujuhbelas"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="10dp"
+        android:text="Pajak"
+        android:textAlignment="center"
+        android:textColor="@color/black"/>
+
+    <ImageView
+        android:id="@+id/delapanbelas"
+        android:layout_width="45dp"
+        android:layout_height="60dp"
+        android:src="@drawable/delapanbelas"
+        android:layout_below="@id/pendidkan"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="125dp"/>
+
+    <TextView
+        android:id="@+id/entah"
+        android:layout_width="66dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tujuhbelas"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="10dp"
+        android:text="PGN"
+        android:textAlignment="center"
+        android:textColor="@color/black"/>
+
+    <ImageView
+        android:id="@+id/semplan"
+        android:layout_width="45dp"
+        android:layout_height="60dp"
+        android:src="@drawable/sempilanbelas"
+        android:layout_below="@id/pendidkan"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="220dp"/>
+
+    <TextView
+        android:id="@+id/tki"
+        android:layout_width="66dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tujuhbelas"
+        android:layout_marginLeft="210dp"
+        android:layout_marginTop="10dp"
+        android:text="TKI"
+        android:textAlignment="center"
+        android:textColor="@color/black"/>
+
+    <ImageView
+        android:id="@+id/duapuluh"
+        android:layout_width="45dp"
+        android:layout_height="60dp"
+        android:src="@drawable/duapuluh"
+        android:layout_below="@id/pendidkan"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="300dp"/>
+
+    <TextView
+        android:id="@+id/samsak"
+        android:layout_width="66dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tujuhbelas"
+        android:layout_marginLeft="290dp"
+        android:layout_marginTop="10dp"
+        android:text="SAMSAT/SIGNAL"
+        android:textAlignment="center"
+        android:textSize="12dp"
+        android:textColor="@color/black"/>
+
+
+</RelativeLayout>

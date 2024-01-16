@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".e_wallet"
+    android:background="@color/white">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/judul"
+        android:text="E-Wallet"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:fontFamily="sans-serif"
+        android:textColor="@color/black"
+        android:layout_marginTop="20dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/subjudul"
+        android:layout_below="@id/judul"
+        android:text="E-Wallet Anda"
+        android:fontFamily="sans-serif"
+        android:textColor="@color/black"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="15dp"/>
+
+    <ImageView
+        android:id="@+id/gopay"
+        android:layout_width="127dp"
+        android:layout_height="114dp"
+        android:layout_below="@id/subjudul"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/pertama" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/subdua"
+        android:layout_below="@id/gopay"
+        android:text="Top Up E-Wallet Lain"
+        android:fontFamily="sans-serif"
+        android:textColor="@color/black"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="15dp"
+        />
+
+    <ImageView
+        android:id="@+id/satu"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/kedua"
+        android:layout_below="@+id/subdua"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/data"
+        android:layout_width="60dp"
+        android:layout_height="32dp"
+        android:layout_below="@+id/satu"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:text="Tapcash"
+        android:textAlignment="center"
+        android:textColor="@color/black"/>
+
+    <ImageView
+        android:id="@+id/dua"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/ketiga"
+        android:layout_below="@+id/subdua"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/hp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dua"
+        android:layout_marginLeft="130dp"
+        android:text="LinkAja"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/black"/>
+
+    <ImageView
+        android:id="@+id/tiga"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/keempat"
+        android:layout_below="@+id/subdua"
+        android:layout_marginLeft="210dp"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/token"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tiga"
+        android:layout_marginLeft="210dp"
+        android:layout_marginTop="10dp"
+        android:text="GO-PAY"
+        android:textColor="@color/black"/>
+
+    <ImageView
+        android:id="@+id/empat"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/kelima"
+        android:layout_below="@+id/subdua"
+        android:layout_marginLeft="290dp"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/TV"
+        android:layout_width="102dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dua"
+        android:layout_marginLeft="270dp"
+        android:layout_marginTop="8dp"
+        android:text="ShoopeePay"
+        android:textAlignment="center"
+        android:textColor="@color/black" />
+
+    <ImageView
+        android:id="@+id/lima"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/keenam"
+        android:layout_below="@id/data"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"/>
+
+    <TextView
+        android:id="@+id/agen"
+        android:layout_width="90dp"
+        android:layout_height="47dp"
+        android:layout_below="@+id/lima"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:text="OVO"
+        android:textAlignment="center"
+        android:textColor="@color/black"/>
+
+    <ImageView
+        android:id="@+id/enam"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/ketujuh"
+        android:layout_below="@id/data"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="125dp"/>
+    <TextView
+        android:id="@+id/virtual"
+        android:layout_width="82dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/enam"
+        android:layout_marginLeft="115dp"
+        android:layout_marginTop="10dp"
+        android:text="DANA"
+        android:textAlignment="center"
+        android:textColor="@color/black"/>
+
+    <ImageView
+        android:id="@+id/tujuh"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/kedelapan"
+        android:layout_below="@id/data"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="220dp"/>
+
+    <TextView
+        android:id="@+id/bni"
+        android:layout_width="105dp"
+        android:layout_height="34dp"
+        android:layout_below="@+id/tujuh"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="10dp"
+        android:text="I-Saku"
+        android:textAlignment="center"
+        android:textColor="@color/black"/>
+
+
+</RelativeLayout>

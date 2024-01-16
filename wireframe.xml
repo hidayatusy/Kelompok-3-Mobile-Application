@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:id="@+id/layout2"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".wireframe">
+
+    <ImageView
+        android:id="@+id/logo1"
+        android:layout_width="280dp"
+        android:layout_height="193dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="75dp"
+        android:background="@drawable/ini" />
+
+    <TextView
+        android:id="@+id/texthome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/logo1"
+        android:layout_marginTop="2dp"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:padding="30dp"
+        android:text="Selamat datang di BNI Mobile Banking"
+        android:textColor="@color/black"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="300dp"
+        android:layout_height="65dp"
+        android:layout_marginLeft="30dp"
+        android:fontFamily="sans-serif"
+        android:gravity="center"
+        android:text="Nikmati kemudahan bertransaksi yang lebih mudah dan lengkap hanya dalam satu genggaman!"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/button1"
+        android:layout_width="318dp"
+        android:layout_height="49dp"
+        android:layout_below="@id/text2"
+        android:layout_marginLeft="22dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/custom_text2"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center"
+        android:onClick="button1"
+        android:text="Sudah punya Kartu Debit"
+        android:textAlignment="center"
+        android:textColor="@color/light1"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/button2"
+        android:layout_width="320dp"
+        android:layout_height="48dp"
+        android:layout_below="@id/text2"
+        android:layout_marginLeft="22dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/custom_text1"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center"
+        android:text="Belum Punya Kartu Debit/Kredit"
+        android:textAlignment="center"
+        android:textColor="@color/orange1"
+        android:textSize="20sp" />
+
+</LinearLayout>
